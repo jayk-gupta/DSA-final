@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/DSA.iml" filepath="$PROJECT_DIR$/.idea/DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/GFG/GFG.iml" filepath="$PROJECT_DIR$/Java/GFG/GFG.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Leetcode/Leetcode.iml" filepath="$PROJECT_DIR$/Java/Leetcode/Leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Neetcode/Neetcode.iml" filepath="$PROJECT_DIR$/Neetcode/Neetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Striver AZ Sheet/Striver AZ Sheet.iml" filepath="$PROJECT_DIR$/Java/Striver AZ Sheet/Striver AZ Sheet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/data-structures-basics/data-structures-basics.iml" filepath="$PROJECT_DIR$/Java/data-structures-basics/data-structures-basics.iml" />
+    </modules>
+  </component>
+</project>
