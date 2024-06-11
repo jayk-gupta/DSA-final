@@ -1,6 +1,7 @@
 package HashMap;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class Syntax {
     public static void main(String[] args) {
@@ -28,6 +29,7 @@ public class Syntax {
         System.out.println(map.values()); // gives values
 //        PUT IF ABSENT
         putIfAbsentMethod(map);
+        iterateMap(map);
     }
 
     //    GET
@@ -57,10 +59,24 @@ public class Syntax {
         System.out.println(map);
     }
 static void iterateMap(HashMap<String, Integer> map){
-
+// KEY
+    for(String key : map.keySet()){
+        System.out.printf("Birthday of %s is %d\n",key,map.get(key));
+    }
+    for(Map.Entry<String,Integer> e:map.entrySet()){
+        System.out.printf("Birthday of %s is %d\n",e.getKey(),e.getValue());
+    }
+    for(var e: map.entrySet()){
+        System.out.printf("Birthday of %s is %d\n",e.getKey(),e.getValue());
+    }
 }
 
-
+/*
+* To access a value must know it's KEY
+* HashMap doesn't allow duplicate key , but allow VALUES
+* NULL KEY : Only ONCE
+* MAINTAINS NO ORDER
+* */
 
 
 
