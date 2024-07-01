@@ -2,7 +2,7 @@ package Matrices;
 
 import java.util.Scanner;
 
-public class ZigZagTraversal {
+public class UpsideDownMatrix {
     public static void main (String[] args) throws java.lang.Exception
     {
         // your code goes here
@@ -18,23 +18,14 @@ public class ZigZagTraversal {
                 arr[i][j] = sc.nextInt();
             }
         }
-        int j = 0 ;
-        for (int i = 0; i < r; i++) {
-            if(i%2!=0){
-                j=c-1;
-                while (j>=0){
-                    System.out.print(arr[i][j]+" ");
-                    j--;
-                }
-            }
-            else{
-               j=0;
-               while (j<c){ 
-                   System.out.print(arr[i][j]+" ");
-                   j++;
-               }
+//        print upside down
+        for (int i = r-1; i >= 0; i--) {
+            for (int j = 0; j < c; j++) {
+                System.out.print(arr[i][j]+" ");
             }
             System.out.println();
         }
+
     }
+
 }
