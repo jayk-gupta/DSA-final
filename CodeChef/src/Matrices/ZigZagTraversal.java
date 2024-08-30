@@ -29,7 +29,7 @@ public class ZigZagTraversal {
             }
             else{
                j=0;
-               while (j<c){ 
+               while (j<c){
                    System.out.print(arr[i][j]+" ");
                    j++;
                }
